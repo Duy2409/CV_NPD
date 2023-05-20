@@ -1,0 +1,69 @@
+@media only screen and (max-width: 760px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  body {
+    font-size: 3vw !important;
+  }
+
+  /*GOALS*/
+  .goals {
+    height: 95vh;
+    padding-top: 3vh !important;
+  }
+  .goal-content {
+    margin: 0 4vw !important;
+    padding-top: 3vh !important;
+    flex-direction: column;
+  }
+  .goals-img {
+    font-size: 24px !important;
+  }
+
+  /*SCOPES*/
+  .scopes-content {
+    flex-direction: column;
+    margin: 0 7vw !important;
+  }
+
+  /*TEAM*/
+  .team {
+    height: 85vh;
+  }
+  .team-content {
+    gap: 5vh !important;
+  }
+  .team-main-content {
+    flex-direction: column;
+    margin: 0 3vh;
+    gap: 1vh !important;
+  }
+  .team-img {
+    font-size: 16px !important;
+  }
+  .team-main-content p:last-child {
+    margin-top: -2vh !important;
+  }
+
+  /*PRIMARY*/
+  .primary-main-content {
+    flex-direction: column;
+    margin: 0 3vh;
+  }
+
+  /*TIMELINE*/
+  .timeline {
+    height: 160vh;
+  }
+  .timeline-main-content {
+    height: 20vh;
+    width: 77vw;
+    flex-direction: column;
+    margin: 0 3vh;
+  }
+  .timeline-number {
+    margin-top: 3vh;
+    margin-right: 22vh;
+  }
+}

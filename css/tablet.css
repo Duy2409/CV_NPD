@@ -1,0 +1,225 @@
+@media only screen and (max-width: 990px) and (min-width: 768px) {
+  /*NAVIGATION BAR*/
+  .personal-avt {
+    display: none;
+  }
+  #nav-info:nth-child(3) {
+    width: 8vw;
+  }
+
+  /*INFORMATION*/
+  #information .container {
+    height: 50vh;
+  }
+  #target {
+    padding-right: 2vh;
+  }
+
+  /*JOB INFORMATION*/
+  #job-info .container {
+    height: 200vh !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(11, minmax(0, 1fr));
+    column-gap: 1.8vw;
+  }
+  .job-info-all h3 {
+    font-size: 16px;
+  }
+  .job-icon {
+    font-size: 6vw;
+    padding-bottom: 3vh;
+  }
+
+  /*Time*/
+  .time-box {
+    width: 65px;
+    height: 25px;
+  }
+
+  /*Experience*/
+  #ex-box {
+    grid-area: 1/1/6/2;
+  }
+  #ex-box .job-icon {
+    padding-bottom: 5vh !important;
+  }
+
+  /*Active*/
+  #ac-box {
+    height: 60vh;
+    grid-area: 1/2/4/-1;
+  }
+
+  /*Education*/
+  #edu-box {
+    margin-top: 13vh !important;
+    grid-area: 4/2/7/-1;
+    height: 65vh;
+  }
+
+  /*Skill*/
+  #skill-box {
+    margin-top: 31.5vh !important;
+    height: 60vh;
+    grid-area: 6/1/9/2;
+  }
+
+  /*Hobby*/
+  #hobby-box {
+    margin-top: 27.5vh !important;
+    grid-area: 7/2/10/-1;
+  }
+  .hobby-info {
+    margin-top: 3vh;
+    height: 20vh;
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    justify-content: center;
+    gap: 0 !important;
+    row-gap: 5vh !important;
+  }
+  .cooking {
+    grid-area: 2/1/-1/2;
+  }
+  .hobby-icon {
+    height: 5vw;
+    width: 5vw;
+  }
+  .ic-megaphone,
+  .ic-strategy,
+  .ic-hotairballoon,
+  .ic-basket {
+    padding-top: 2vh !important;
+    font-size: 2.5vw;
+  }
+  .music-icon {
+    padding-left: 2.3vw;
+  }
+  .game-icon {
+    padding-left: 2.5vw;
+  }
+  .travel-icon {
+    padding-left: 2.3vw;
+  }
+  .cooking-icon {
+    padding-left: 2.3vw;
+  }
+
+  /*Language*/
+  #lang-box {
+    height: 35vh !important;
+    margin-top: 41vh !important;
+    grid-area: 9/1/-1/2;
+  }
+  #lang-box .job-icon {
+    padding-bottom: 0 !important;
+  }
+
+  /*point*/
+  .point {
+    height: 0.5vh;
+    width: 6vw;
+  }
+
+  /*bullet point*/
+  .bullet-point {
+    width: 15px !important;
+    height: 15px !important;
+  }
+  #ex-first-point {
+    width: 54px !important;
+  }
+  #ex-last-point {
+    width: 24px !important;
+  }
+  #edu-first-point {
+    width: 25px !important;
+  }
+  #edu-last-point {
+    width: 17px !important;
+  }
+  #ac-first-point {
+    width: 17px !important;
+  }
+
+  /*CERTIFICATE*/
+  #certificate .container {
+    width: 80% !important;
+    height: 115vh !important;
+    margin: 0 15vh;
+  }
+  .cer-info {
+    flex-direction: column !important;
+  }
+  .cer-info h5 {
+    text-transform: uppercase;
+  }
+  .first-row {
+    height: 46vh !important;
+  }
+  .cer-img {
+    height: 24vh !important;
+    width: 30vw !important;
+    margin-bottom: 5px;
+  }
+  .cer-text {
+    width: 30vw;
+  }
+  #cer-1 {
+    width: 95% !important;
+    height: 43vh !important;
+    justify-content: baseline !important;
+  }
+  #cer-2 {
+    padding-left: 5vh !important;
+  }
+
+  /*PROJECT*/
+  #project .container {
+    width: 95%;
+  }
+  .pro-main-container {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 5vh;
+  }
+  .pro-header h3 {
+    font-size: 16px;
+    height: 12vh;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+    padding-left: 3vh;
+  }
+  .pro-info-time {
+    font-size: 12px;
+    width: 100%;
+    height: 10vh;
+    grid-template-columns: 10vh 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    padding-top: 1vh;
+    padding-left: 3vh;
+  }
+  .pro-time {
+    grid-row: 1/-1;
+  }
+  .pro-icon-lamp {
+    margin-top: -3vh;
+    margin-left: 0;
+  }
+
+  /*table*/
+  table {
+    font-size: 12px !important;
+  }
+  .tr-1 {
+    height: 25vh;
+  }
+  .td-1 {
+    padding-left: 2vh;
+    width: 10vh;
+  }
+  .td-2 {
+    padding-left: 1vh;
+    padding-right: 0.5vh;
+  }
+}

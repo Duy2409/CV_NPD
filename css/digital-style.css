@@ -1,0 +1,128 @@
+@media only screen and (min-width: 768px) {
+  main {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 60vh 44vh;
+  }
+  body {
+    font-size: 14px;
+  }
+}
+
+/*HEADER*/
+body {
+  font-family: sans-serif;
+  height: 105vh;
+}
+main {
+  border: 10px solid blue;
+  background-color: #e3fafc;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+}
+.section-title {
+  margin: 0 3vh;
+  padding-top: 2vh;
+  padding-bottom: 3vh;
+  border-bottom: 1px solid #ced4da;
+}
+
+/*GOALS*/
+.goals {
+  border: 1vh solid blue;
+}
+.goal {
+  margin: 0 3vh;
+}
+.goal-content {
+  margin-top: 1vh;
+  border-bottom: 1px solid #ced4da;
+}
+.goals-img {
+  height: 4vh;
+  margin-right: 2vh;
+  margin-top: 1vh;
+  vertical-align: top !important;
+}
+
+/*SCOPES*/
+.scopes {
+  grid-area: 2/1/-1/2;
+  border: 5px solid blue;
+}
+.scopes-content {
+  padding-top: 2vh;
+  margin: 0 3vh;
+  gap: 5vh;
+}
+
+/*TEAM*/
+.team {
+  border: 5px solid blue;
+}
+.team-content {
+  flex-direction: column;
+  margin: 0 3vh;
+  margin-top: 2vh;
+}
+.team-main-content {
+  height: 11vh;
+  gap: 2vh;
+}
+.team-img {
+  height: 5vh;
+  margin-top: 1vh;
+  vertical-align: top !important;
+}
+
+/*PRIMARY*/
+.primary {
+  grid-area: 2/2/-1/3;
+  border: 5px solid blue;
+}
+.primary-content {
+  margin: 0 3vh;
+  padding-top: 2vh;
+  gap: 2vh;
+
+  flex-direction: column;
+}
+.primary-main-content {
+  gap: 2vh;
+}
+.primary-img {
+  height: 5vh;
+  margin-top: 1vh;
+  vertical-align: top !important;
+}
+
+/*TIMELINE*/
+.timeline {
+  grid-area: 1/3/-1/-1;
+  border: 5px solid blue;
+}
+.timeline-content {
+  flex-direction: column;
+  margin: 0 3vh;
+}
+.timeline-number {
+  width: 6vh;
+  height: 6vh;
+  font-size: 16px;
+  padding-top: 1vh;
+  background-color: #b197fc;
+  border: 1px solid #be4bdb;
+  border-radius: 50%;
+}
+.timeline-main-content {
+  height: 10vh;
+  font-size: 14px;
+  margin-top: 2vh;
+  gap: 3vh;
+  border-bottom: 1px dotted #b197fc;
+}
+.timeline-main-content p:last-child {
+  margin-top: -1.5vh;
+}
